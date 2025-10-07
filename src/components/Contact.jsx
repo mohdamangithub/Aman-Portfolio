@@ -93,7 +93,7 @@ const Contact = () => {
           variant="outlined"
           endIcon={<ArrowOutward />}
           component="a"
-          href="#"
+          href="https://drive.google.com/file/d/10WCZGiQH8LCreYOOtfS4PjSQX9NQKh0O/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
