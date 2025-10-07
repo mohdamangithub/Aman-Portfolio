@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+.flex-between-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-between-end {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.flex-around-start {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.flex-around-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-around-end {
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+
+.flex-evenly-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.flex-evenly-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-evenly-end {
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+}
+
+.flex-center-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, #ff5733, #6cbf77, #0abde3);
+  background-clip: text;
+  -webkit-background-clip: text; /* For some older browsers */
+  color: transparent;
+}
+.gradient-background {
+  background-image: linear-gradient(45deg, #ff5733, #6cbf77, #0abde3);
+  /* Optional: make it look nice */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.circle {
+  background: radial-gradient(circle at center, blue, transparent 65%);
+}
+
+.linearToB {
+  background: linear-gradient(to bottom, transparent, #0abde3, transparent);
+}
+.linearToL {
+  background: linear-gradient(to left, transparent, blue, transparent);
+}
+.marker {
+  position: relative;
+  display: inline-block;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+    width: 185px;
+    height: 23px;
+    transform: skew(-29deg) translateX(-50%);
+   background-image: linear-gradient(45deg, #ff5733, #6cbf77, #0abde3);
+    z-index: -2;
+  }
+}
+
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #ff5733 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #f5733f 97.5%);
+}
+
+.orange-text-gradient {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f12711,
+    #f5af19
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.green-text-gradient {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #11998e,
+    #38ef7d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blue-text-gradient {
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pink-text-gradient {
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
