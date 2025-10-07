@@ -15,19 +15,19 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   //Function to determine the active section while scrolling.
-   const determineActiveSection = () => {
-     for (let i = navLinks.length - 1; i >= 0; i--) {
-       const section = document.getElementById(navLinks[i].id);
-       if (section) {
-         const rect = section.getBoundingClientRect();
-         if (rect.top <= 120 && rect.bottom >= 120) {
-           //set the active link based on the section ID
-           setActive(navLinks[i].title);
-           break;
-         }
-       }
-     }
-   };
+  const determineActiveSection = () => {
+    for (let i = navLinks.length - 1; i >= 0; i--) {
+      const section = document.getElementById(navLinks[i].id);
+      if (section) {
+        const rect = section.getBoundingClientRect();
+        if (rect.top <= 120 && rect.bottom >= 120) {
+          //set the active link based on the section ID
+          setActive(navLinks[i].title);
+          break;
+        }
+      }
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,15 +38,11 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-   
-  
-   
-
   return (
     <nav
       className={`${
         styles.paddingX
-      } fixed top-0  flex w-full items-center py-5 z-50 ${
+      } fixed top-0  z-50 flex w-full items-center py-5 ${
         scrolled ? "bg-primary" : "bg-primary"
       }`}
     >
@@ -61,9 +57,12 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
-          <p className="flex cursor-pointer text-[18px] font-bold text-white uppercase">
+          <p className="flex cursor-pointer text-[18px] font-bold uppercase text-white">
             Mohd Aman &nbsp;
-            <span className="hidden sm:block">|&nbsp; <span className=" gradient-text">MERN Stack Developer</span></span>
+            <span className="hidden sm:block">
+              |&nbsp;{" "}
+              <span className=" gradient-text">MERN Stack Developer</span>
+            </span>
           </p>
         </Link>
 
