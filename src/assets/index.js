@@ -30,7 +30,7 @@ import chrome from "./tools/chrome.png";
 import mongodbCompass from "./tools/mongodbCompass.png";
 import postman from "./tools/postman.png";
 import portfolio from "./portfolio.png";
-import aman from "./aman.png";
+import aman from "./aman.webp";
 
 export {
   logo,
