@@ -36,9 +36,9 @@ const navLinks = [
 ];
 
 const services = [
-  { title: "Web Developer", icon: web },
-  { title: "React Developer", icon: frontend },
-  { title: "Backend Developer", icon: backend },
+  { title: "React Js Developer", icon: frontend },
+  { title: "Next Js Developer", icon: web },
+  { title: "Node Js Developer", icon: backend },
   { title: "Full Stack Developer", icon: fullStack },
 ];
 
