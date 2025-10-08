@@ -142,8 +142,8 @@ const experiences = [
       tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
       image: portfolio,
       alt: 'personal portfolio website',
-      source_code_link: "#",
-      live_link: "#"
+      source_code_link: "https://github.com/mohdamangithub/Aman-Portfolio",
+      live_link: "https://aman-portfolio-psi-ten.vercel.app"
     },
   ];
 
