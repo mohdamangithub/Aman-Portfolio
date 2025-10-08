@@ -4,6 +4,7 @@ import {textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import ParticlesContainer from "./ParticlesContainer";
+import { aman } from "../assets";
 
 const Hero = () => {
   return (
@@ -27,13 +28,16 @@ const Hero = () => {
           </div>
         
          
-          <motion.div variants={textVariant()} className="mt-[180px]">
+          <motion.div variants={textVariant()} className="mt-[60px] md:mt-[50px] flex flex-col items-center">
             <h1 className={`${styles.heroHeadText} text-white text-center`}>
               Hi, I'm <span className="gradient-text">Aman</span>
             </h1>
-            <p className={`${styles.heroSubText} text-white-1z text-center mt-2 mb-10`}>
+            <p className={`${styles.heroSubText} text-white-1z px-6 md:p-0 text-center mt-2 mb-8`}>
               I develop <span className="gradient-text">Full-Stack</span> Web Applications using the <span className="gradient-text"> MERN Stack</span>, focused on performance, scalability, and great user experience
             </p>
+            <div className="profile w-64 h-64 shadow-2xl shadow-[#ffffff8e]  border border-[#ffffff8e] mb-5 rounded-full overflow-hidden">
+              <img src={aman} className="object-cover object-center" alt="" />
+            </div>
           </motion.div>
             
          <div className="absolute right-0 mt-20 flex flex-col items-center justify-center">
