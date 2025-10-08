@@ -7,6 +7,7 @@ import {
   css,
   javascript,
   reactjs,
+  redux,
   tailwind,
   nodejs,
   expressjs,
@@ -49,6 +50,7 @@ const technologies = [
   { name: "Tailwind CSS", icon: tailwind },
   { name: "React JS", icon: reactjs },
   { name: "Next JS", icon: nextjs },
+  { name: "Redux Toolkit", icon: redux },
   { name: "Node JS", icon: nodejs },
   { name: "Express JS", icon: expressjs },
   { name: "MongoDB", icon: mongodb },
@@ -88,7 +90,7 @@ const experiences = [
 
   const projects = [
     {
-      name: "Dentist Clinic Website",
+      name: "Ackshaya Dental Clinic",
       description:"I Created this website for a client and this website is of a dental care clinic, you can book your appointment, check memberships plan and blogs.",
       tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
       image: dental,
@@ -97,7 +99,7 @@ const experiences = [
       live_link: "https://dentistvikas.com"
     },
     {
-      name: "Dot International",
+      name: "Dot International India",
       description:
         "I Created this website for a client, At Dot International, we specialize in creating unforgettable exhibition experiences. a presence in India.",
       tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array

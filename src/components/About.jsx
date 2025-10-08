@@ -62,7 +62,7 @@ const About = () => {
       </div>
       <div className="flex-center-center mt-20 flex-col">
         <h3 className={`${styles.sectionHeadText} marker`}>Skills</h3>
-        <div className="mt-2 flex flex-wrap  justify-center gap-10 ">
+        <div className="mt-10 flex flex-wrap  justify-center gap-10 ">
           {technologies.map((item, i) => (
             <div key={i} className="flex-around-center w-[80px] flex-col">
               <img src={item.icon} width="100%" alt={item.name} />
@@ -73,7 +73,7 @@ const About = () => {
       </div>
       <div className="flex-center-center mt-20 flex-col">
         <h3 className={styles.sectionSubText}>Tools and Software</h3>
-        <div className="mt-2 flex flex-wrap  justify-center gap-10 ">
+        <div className="mt-8 flex flex-wrap  justify-center gap-10 ">
           {tools.map((item, i) => (
             <div key={i} className="flex-around-center w-[80px] flex-col">
               <img src={item.icon} width="100%" alt={item.name} />

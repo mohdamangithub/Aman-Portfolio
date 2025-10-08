@@ -15,6 +15,7 @@ const ProjectCard = ({
   source_code_link,
   live_link,
 }) => (
+
   <motion.div variants={fadeIn("up", "spring", index * 0.1 + 0.3, 0.7)}>
     <div className="w-full rounded-2xl bg-tertiary p-5 sm:w-[360px]">
       <div className="relative h-[230px] w-full">
@@ -47,8 +48,8 @@ const ProjectCard = ({
         </div>
       </div>
 
-      <div className="mt-5">
-        <h3 className="text-[24px] font-bold text-white">{name}</h3>
+      <div className="mt-5 ">
+        <h3 className="text-[26px] md:text-[24px] font-bold text-white">{name}</h3>
         <p className="mt-2 line-clamp-4 text-[14px] text-secondary">
           {description}
         </p>

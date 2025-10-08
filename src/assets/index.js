@@ -15,6 +15,7 @@ import html from "./tech/html.png";
 import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
+import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import nodejs from "./tech/nodejs.png";
 import expressjs from "./tech/expressjs.png";
@@ -48,6 +49,7 @@ export {
   css,
   javascript,
   reactjs,
+  redux,
   tailwind,
   nodejs,
   expressjs,
