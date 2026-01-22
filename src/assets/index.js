@@ -29,8 +29,8 @@ import ChatGPT from "./tools/ChatGPT.png";
 import chrome from "./tools/chrome.png";
 import mongodbCompass from "./tools/mongodbCompass.png";
 import postman from "./tools/postman.png";
-import portfolio from "./portfolio.png";
-import aman from "./aman.webp";
+import aman from "./aman2.webp";
+import Mansoori_Ecommerce from "./Mansoori_Ecommerce.png";
 
 export {
   logo,
@@ -64,6 +64,6 @@ export {
   chrome,
   mongodbCompass,
   postman,
-  portfolio,
   aman,
+  Mansoori_Ecommerce
 };

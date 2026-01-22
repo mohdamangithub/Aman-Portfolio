@@ -26,8 +26,7 @@ import {
   mansooriConstruction,
   uber,
   secretGenerator,
-  portfolio,
-
+  Mansoori_Ecommerce
 } from "../assets";
 
 const navLinks = [
@@ -85,75 +84,69 @@ const experiences = [
       "Continuously improving skills in MERN stack and exploring modern libraries & tools for full-stack development.",
     ],
   },
-  
 ];
 
-  const projects = [
-    {
-      name: "Ackshaya Dental Clinic",
-      description:"I Created this website for a client and this website is of a dental care clinic, you can book your appointment, check memberships plan and blogs.",
-      tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
-      image: dental,
-      alt: 'dental clinic website',
-      source_code_link: "https://github.com/mohdamangithub/Dentist_Website",
-      live_link: "https://dentistvikas.com"
-    },
-    {
-      name: "Dot International India",
-      description:
-        "I Created this website for a client, At Dot International, we specialize in creating unforgettable exhibition experiences. a presence in India.",
-      tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
-      image: dotInternational,
-      alt: 'dot international website',
-      source_code_link: "https://github.com/mohdamangithub/Dot_International",
-      live_link: "https://dot-international.vercel.app"
-    },
-    {
-      name: "Mansoori Construction",
-      description:
-        "I built this website for my family's construction firm, Public Works Department Government Contractor Trusted Partner for Government Infrastructure Projects.",
-      tech: ["NextJs", "TailwindCSS"], // 👈 raw tech array
-      image: mansooriConstruction,
-      alt: 'mansoori construction website',
-      source_code_link: "https://github.com/mohdamangithub/Mansoori-Construction-Website",
-      live_link: "https://mansoori-construction-website.vercel.app"   
-    },
-    {
-      name: "Uber Clone",
-      description:
-        "In this App is a platform that mimics the functionality of ride-hailing apps like Uber, allowing users to book rides, to accept requests, and administrators to manage the platform. Key features include user-friendly interfaces, real-time tracking and Created an Authentication for sign up the user, login the user and logout the user and also sign up the captain, login the captain and logout the captain using JWT token.",
-      tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"], // 👈 raw tech array
-      image: uber,
-      alt: 'uber clone app',
-      source_code_link: "https://github.com/mohdamangithub/Uber_Clone",
-      live_link: "https://uber-clone-frontend-swart.vercel.app"
-    },
-    {
-      name: "Secret Generator",
-      description:"I built a fully responsive Secret Generator App using React.js and Tailwind CSS. It allows users to generate secure passwords with options for uppercase, lowercase, numbers, and special characters — all within a smooth, minimal UI and This app also adapts automatically to system dark/light themes with seamless transitions powered by Framer Motion animations.",
-      tech: ["ReactJs", "NodeJs"], // 👈 raw tech array
-      image: secretGenerator,
-      alt: 'secret generator app',
-      source_code_link: "https://github.com/mohdamangithub/Secret-Generator",
-      live_link: "https://secret-generator.vercel.app"
-    },
-    {
-      name: "Personal Portfolio",
-      description:
-        "A personal portfolio website built using React, Node.js, and MongoDB with animations and responsive design. I focus on creating seamless user experiences with clean code, accessibility, and optimized performance across devices.",
-      tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
-      image: portfolio,
-      alt: 'personal portfolio website',
-      source_code_link: "https://github.com/mohdamangithub/Aman-Portfolio",
-      live_link: "https://aman-portfolio-psi-ten.vercel.app"
-    },
-  ];
+const projects = [
+  {
+    name: "Mansoori Ecommerce",
+    description:"Built a Full-stack e-commerce web application with JWT-based authentication, product management, and secure checkout. Implemented image uploads using Multer and Cloudinary, advanced product filtering, cart and order management, Razorpay and Cash on Delivery payments, user order tracking, and an admin panel for managing products and orders.",
+    tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"], // 👈 raw tech array
+    image: Mansoori_Ecommerce,
+    alt: "personal portfolio website",
+    source_code_link: "https://github.com/mohdamangithub/Mansoori-Ecommerce",
+    live_link: "https://mansoori-ecommerce-frontend.vercel.app",
+  },
+  {
+    name: "Ackshaya Dental Clinic",
+    description:
+      "Developed a Dental Care Clinic website for a client, featuring online appointment booking, membership plans, blogs, and additional user-focused features to enhance patient engagement and clinic visibility.",
+    tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
+    image: dental,
+    alt: "dental clinic website",
+    source_code_link: "https://github.com/mohdamangithub/Dentist_Website",
+    live_link: "https://dentist-website-chi.vercel.app",
+  },
+  {
+    name: "Dot International India",
+    description:
+      "Developed a client website for Dot International, a company specializing in creating impactful exhibition experiences, highlighting its services and strong presence across India.",
+    tech: ["ReactJs", "TailwindCSS"], // 👈 raw tech array
+    image: dotInternational,
+    alt: "dot international website",
+    source_code_link: "https://github.com/mohdamangithub/Dot_International",
+    live_link: "https://dot-international.vercel.app",
+  },
+  {
+    name: "Mansoori Construction",
+    description:
+      "Developed a professional website for my family’s construction firm, a Public Works Department (PWD) government contractor, showcasing its expertise and trusted role in delivering government infrastructure projects.",
+    tech: ["NextJs", "TailwindCSS"], // 👈 raw tech array
+    image: mansooriConstruction,
+    alt: "mansoori construction website",
+    source_code_link:
+      "https://github.com/mohdamangithub/Mansoori-Construction-Website",
+    live_link: "https://mansoori-construction-website.vercel.app",
+  },
+  {
+    name: "Uber Clone",
+    description:
+      "Developed a ride-hailing web application inspired by platforms like Uber, enabling users to book rides, captains to accept ride requests, and administrators to manage the platform efficiently. Implemented secure JWT-based authentication for users and captains, including signup, login, and logout functionality. Designed user-friendly interfaces with real-time ride tracking to ensure a smooth and reliable booking experience.",
+    tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"], // 👈 raw tech array
+    image: uber,
+    alt: "uber clone app",
+    source_code_link: "https://github.com/mohdamangithub/Uber_Clone",
+    live_link: "https://uber-clone-frontend-swart.vercel.app",
+  },
+  {
+    name: "Secret Generator",
+    description:
+      "Built a fully responsive Secret Generator application using React.js and Tailwind CSS, enabling users to generate secure passwords with customizable character options. Implemented automatic dark/light theme support with smooth UI transitions powered by Framer Motion animations.",
+    tech: ["ReactJs", "NodeJs"], // 👈 raw tech array
+    image: secretGenerator,
+    alt: "secret generator app",
+    source_code_link: "https://github.com/mohdamangithub/Secret-Generator",
+    live_link: "https://secret-generator.vercel.app",
+  },
+];
 
-export {
-  navLinks,
-  services,
-  technologies,
-  experiences,
-  tools,
-  projects
-};
+export { navLinks, services, technologies, experiences, tools, projects };
