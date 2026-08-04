@@ -32,8 +32,8 @@ const ExperienceCard = ({ experience }) => {
           <a href="https://www.mansooritechnologies.com/"
             target="_blank"
   rel="noopener noreferrer"
-          className="text-[14px] font-semibold text-[#915EFF] hover:underline transition-colors duration-300">
-          Visit Website
+          className="text-[10 px] font-semibold text-[royalblue] underline transition-colors duration-300">
+          Visit
         </a>
         </p>
         

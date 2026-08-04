@@ -69,7 +69,7 @@ const tools = [
 const experiences = [
   {
     title: "MERN Stack Developer",
-    company_name: "Mansoori Technologies Pvt. Ltd.",
+    company_name: "Mansoori Technologies",
     icon: frontend,
     iconBg: "#383E56",
     date: "January 2026 - Present",
