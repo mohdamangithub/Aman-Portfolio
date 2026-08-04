@@ -1,5 +1,4 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import { Link } from "react-router-dom";
 
 const ExperienceCard = ({ experience }) => {
   
