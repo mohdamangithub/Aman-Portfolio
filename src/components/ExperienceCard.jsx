@@ -1,4 +1,5 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import { Link } from "react-router-dom";
 
 const ExperienceCard = ({ experience }) => {
   
@@ -24,11 +25,19 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className="text-[20px] md:text-[24px] font-bold text-white">{experience.title}</h3>
         <p
-          className="text-[16px] font-semibold text-secondary"
+        
+          className="text-[16px] font-semibold text-secondary flex items-center justify-between"
           style={{ margin: 0 }}
         >
           {experience.company_name}
+          <a href="https://www.mansooritechnologies.com/"
+            target="_blank"
+  rel="noopener noreferrer"
+          className="text-[14px] font-semibold text-[#915EFF] hover:underline transition-colors duration-300">
+          Visit Website
+        </a>
         </p>
+        
       </div>
 
       <ul className="ml-5 mt-5 list-disc space-y-2">

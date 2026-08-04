@@ -69,10 +69,10 @@ const tools = [
 const experiences = [
   {
     title: "MERN Stack Developer",
-    company_name: "Campaigning Source Solutions, Ghaziabad, U.P",
+    company_name: "Mansoori Technologies Pvt. Ltd.",
     icon: frontend,
     iconBg: "#383E56",
-    date: "September 2024 - December 2024",
+    date: "January 2026 - Present",
     points: [
       "Hands-on expertise in React.js for building responsive and dynamic user interfaces.",
       "Developed and maintained scalable RESTful APIs with Node.js and Express.js.",
