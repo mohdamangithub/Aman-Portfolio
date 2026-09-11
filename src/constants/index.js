@@ -72,7 +72,7 @@ const experiences = [
     company_name: "Mansoori Technologies",
     icon: frontend,
     iconBg: "#383E56",
-    date: "January 2026 - Present",
+    date: "March 2026 - August 2026",
     points: [
       "Hands-on expertise in React.js for building responsive and dynamic user interfaces.",
       "Developed and maintained scalable RESTful APIs with Node.js and Express.js.",
